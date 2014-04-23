@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.author   = { 'The Google Data APIs team' => 'https://code.google.com/p/google-api-objectivec-client' }
   s.source = { :git => 'https://github.com/pepibumur/gtm-oauth2.git', :tag => '0.0.1' }
   s.requires_arc = false
-  s.dependency   'GTMHTTPFetcher'
-  s.dependency    'SBJson'
+  #s.dependency   'GTMHTTPFetcher'
+  #s.dependency    'SBJson'
   s.frameworks = 'Security', 'SystemConfiguration'
   s.ios.deployment_target = '3.0'
   s.osx.deployment_target = '10.5'
